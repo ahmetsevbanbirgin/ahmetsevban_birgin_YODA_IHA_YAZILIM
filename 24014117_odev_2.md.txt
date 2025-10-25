@@ -1,0 +1,29 @@
+# Github Temel Kavramlar ve Nasýl Kullanýldýklarý
+Git, bir proje yaparken kullanýlan ana yerdir. Eðer birçok kiþi bir projede çalýþacaksa git, kullanýcýlarýn kolay ve rahat bir þekilde senkronize olmasýný saðlar ve bu nedenle çoðu yazýlýmcý kullanýr.
+Github, kullanýcýlarýn projelerini buraya yükleyip diðer kullanýcýlarla paylaþabildiði bir platformdur.
+Config, gitteki kullanýcýlarýn kendi iletiþim bilgilerini gitte yazarken kullandýklarý bir þeydir. Kullaným þekli þu þekildedir:    git config --global user.name "Your Name"
+mkdir  gitte yeni bir dizin oluþturmak için kullanýlýr.
+cd oluþturulan dizini seçmek için kullanýlýr. mkdir myproject	cd myproject
+init gitte repository baþlatmak için kullanýlan bir komuttur. git init
+Repository projedeki her þeyi depolayan, not eden bir klasördür.
+Repository github kullanýlarak oluþturulur.
+status komutu ile dosyalardaki deðiþiklikler kontrol edilir.
+Ls komutu klasördeki hangi dosyalarýn izlendiðini söyler.
+add komutu dosya eklemek için kullanýlýr.
+restore komutu eðer dosya yanlýþ yere konumlandýrýlmýþsa onun yerini düzenlemek için kullanýlýr.
+reset komutu o dosyaya kadar olan tüm dosyalarý siler.
+Commit dosyadaki deðiþiklikleri kaydeden bir þeydir. “git commit -m “ þeklinde yazýlýr.
+Branch yeni þeyler eklemek için kullanýlýr, güvenilirdir.
+Merge brancdeki deðiþiklikleri baþka branch ile birleþtirir.
+Log repository deki tüm deðiþiklikleri görmek için kullanýlýr.
+Push komutu ile yazdýðýn programý githubda paylaþmýþ olursun. Git push origin
+Pull githubdaki içerikleri buraya alabilmeyi saðlar.  Git pull origin
+Checkout branchlar arasýnda geçiþ yapmayý saðlar.
+Checkout -b yeni bir branch oluþturur ve ona geçiþ yapar.
+
+
+
+
+
+
+
